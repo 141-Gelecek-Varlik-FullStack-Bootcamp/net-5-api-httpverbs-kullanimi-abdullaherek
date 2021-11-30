@@ -1,0 +1,129 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Abdullah\\Desktop\\gelecekvarlik-bootcamp\\net-5-api-httpverbs-kullanimi-abdullaherek\\Odev1.API\\Odev1.API\\Odev1.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Abdullah\\Desktop\\gelecekvarlik-bootcamp\\net-5-api-httpverbs-kullanimi-abdullaherek\\Odev1.API\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Abdullah\\Desktop\\gelecekvarlik-bootcamp\\net-5-api-httpverbs-kullanimi-abdullaherek\\Odev1.API\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "C:\\Users\\Abdullah\\Desktop\\gelecekvarlik-bootcamp\\net-5-api-httpverbs-kullanimi-abdullaherek\\Odev1.API\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\Abdullah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Abdullah\\Desktop\\gelecekvarlik-bootcamp\\net-5-api-httpverbs-kullanimi-abdullaherek\\Odev1.API\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Abdullah\\Desktop\\gelecekvarlik-bootcamp\\net-5-api-httpverbs-kullanimi-abdullaherek\\Odev1.API\\Odev1.API\\Odev1.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Abdullah\\Desktop\\gelecekvarlik-bootcamp\\net-5-api-httpverbs-kullanimi-abdullaherek\\Odev1.API\\Odev1.API\\Odev1.API.csproj",
+        "projectName": "Odev1.API",
+        "projectPath": "C:\\Users\\Abdullah\\Desktop\\gelecekvarlik-bootcamp\\net-5-api-httpverbs-kullanimi-abdullaherek\\Odev1.API\\Odev1.API\\Odev1.API.csproj",
+        "packagesPath": "C:\\Users\\Abdullah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Abdullah\\Desktop\\gelecekvarlik-bootcamp\\net-5-api-httpverbs-kullanimi-abdullaherek\\Odev1.API\\Odev1.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Abdullah\\Desktop\\gelecekvarlik-bootcamp\\net-5-api-httpverbs-kullanimi-abdullaherek\\Odev1.API\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Abdullah\\Desktop\\gelecekvarlik-bootcamp\\net-5-api-httpverbs-kullanimi-abdullaherek\\Odev1.API\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
